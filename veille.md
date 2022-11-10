@@ -1,6 +1,9 @@
 # Veille Science des données
 ## Notions mathématiques
 ### Un vecteur et une matrice.
+
+* From WIKIPEDIA ++
+
 Un vecteur est un élément d'un espace vectoriel :
 possible d'effectuer les opérations d'addition et de multiplication par un scalaire (nombre). L'addition et le produit par un nombre réel se font composante par composante.
 traditionnellement, n-uplet = collection ordonnée de n objets (nombres)
@@ -16,11 +19,11 @@ Chaque résultat possible sera appelé une éventualité ω.
 Rapport entre le nombre de cas favorables et le nombre de cas possibles.
 
 ### Espérance, Variance et Écart-Type.
-Espérance : valeur que l'on s'attend à trouver, en moyenne, si l'on répète un grand nombre de fois la même expérience aléatoire. (dés = 3,5)
+* Espérance : valeur que l'on s'attend à trouver, en moyenne, si l'on répète un grand nombre de fois la même expérience aléatoire. (dés = 3,5)
 
-Variance : mesure de la dispersion des valeurs d'un échantillon ou d'une distribution de probabilité. (Elle exprime la moyenne des carrés des écarts à la moyenne, aussi égale à la différence entre la moyenne des carrés des valeurs de la variable et le carré de la moyenne.)
+* Variance : mesure de la dispersion des valeurs d'un échantillon ou d'une distribution de probabilité. (Elle exprime la moyenne des carrés des écarts à la moyenne, aussi égale à la différence entre la moyenne des carrés des valeurs de la variable et le carré de la moyenne.)
 
-Ecart-type : mesure de la dispersion des valeurs d'un échantillon ou d'une distribution de probabilité. Il est défini comme la racine carrée de la variance ou, de manière équivalente, comme la moyenne quadratique des écarts par rapport à la moyenne.
+* Ecart-type : mesure de la dispersion des valeurs d'un échantillon ou d'une distribution de probabilité. Il est défini comme la racine carrée de la variance ou, de manière équivalente, comme la moyenne quadratique des écarts par rapport à la moyenne.
 
 https://lecluseo.scenari-community.org/1S/Proba/co/G_EspVarAlea.html
 
@@ -32,10 +35,10 @@ La corrélation linéaire entre variables quantitatives, c’est-à-dire l’aju
 
 
 ### Une moyenne, une médiane, un maximum, un minimum.
-Moyenne : Valeur représentative (sensible aux extrêmes)
-Médiane : Autant de valeurs au-dessus qu’au-dessous
-Maximum : Valeur plus élevée
-Minimum : Valeur moins élevée
+* Moyenne : Valeur représentative (sensible aux extrêmes)
+* Médiane : Autant de valeurs au-dessus qu’au-dessous
+* Maximum : Valeur plus élevée
+* Minimum : Valeur moins élevée
 
 
 ### Les quantiles divisent la distribution en plusieurs secteurs d'intérêt. Habituellement les quartiles :
@@ -90,6 +93,7 @@ Elles sont utilisées pour effectuer une régression linéaire par la méthode d
 
 que l'on ne peut pas résoudre de manière classique lorsque l'on a plus d'équations indépendantes que d'inconnues (n > p, système surdéterminé).
 
+Matrice transposée:
 
 ### La loi Normale.
 Utilisée pour modéliser des phénomènes naturels issus de plusieurs événements aléatoires. Loi de probabilité absolument continue qui dépend de deux paramètres : son espérance, un nombre réel noté μ, et son écart type, un nombre réel positif noté σ.
