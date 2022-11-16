@@ -102,6 +102,8 @@ https://en.wikipedia.org/wiki/Loss_function
 Dérivée d'une fonction (variable réelle) mesure l'ampleur du changement de la valeur de la fonction (valeur de sortie) par rapport à un petit changement de son argument (valeur d'entrée).
 En analyse, le nombre dérivé en un « point » (réel) x x d'une fonction f f à variable et valeurs réelles est la pente de la tangente au graphe de f f au point ( x , f ( x ) ).C'est le coefficient directeur de l'approximation affine de f {\displaystyle f} en x x ;
 
+https://fr.wikipedia.org/wiki/D%C3%A9riv%C3%A9e
+
 
 
 ### Descente de gradient. ++
@@ -112,24 +114,30 @@ Algorithme d'optimisation différentiable = destiné à minimiser une fonction r
 
 L'algorithme est itératif et procède donc par améliorations successives. Au point courant, un déplacement est effectué dans la direction opposée au gradient, de manière à faire décroître la fonction. Le déplacement le long de cette direction est déterminé par la technique numérique connue sous le nom de recherche linéaire. Cette description montre que l'algorithme fait partie de la famille des algorithmes à directions de descente.
 
+https://fr.wikipedia.org/wiki/Gradient
+https://fr.wikipedia.org/wiki/Algorithme_du_gradient
+
+https://www.youtube.com/watch?v=MJkY-E_0K74
+https://www.youtube.com/watch?v=HmAH6Ct1rc4
+
 
 
 ### Équation normale. ++
 
 En statistique, équation matricielle de la forme :
 
-    tAAx = tAb
+    tA A x = tA b
 
 où
 
-    A est une matrice de réels de dimensions n×p ;
+    A est une matrice de réels de dimensions n × p ;
     tA est la matrice transposée de A ;
     x est un vecteur réel inconnu de dimension p ;
     b est un vecteur connu de dimension n.
 
 Elles sont utilisées pour effectuer une régression linéaire par la méthode des moindres carrés. De manière générale, il s'agit de la pseudo-solution du système linéaire
 
-    Ax = b
+    A x = b
 
 que l'on ne peut pas résoudre de manière classique lorsque l'on a plus d'équations indépendantes que d'inconnues (n > p, système surdéterminé).
 
@@ -139,10 +147,12 @@ La transposée tA d'une matrice A s'obtient par symétrie axiale par rapport à 
 Méthode moindres carrés:
 Permet de comparer des données expérimentales, généralement entachées d’erreurs de mesure, à un modèle mathématique censé décrire ces données.
 
-https://www.youtube.com/watch?v=RQYnlgkgsUA
-
 L'ajustement linéaire par la méthode des moindres carrés consiste à déterminer la droite d'ajustement passant par le point " moyen ".
 
+https://fr.wikipedia.org/wiki/%C3%89quation_normale
+https://fr.wikipedia.org/wiki/Matrice_transpos%C3%A9e
+
+https://www.youtube.com/watch?v=RQYnlgkgsUA
 https://fr.khanacademy.org/math/be-5eme-secondaire2h2/x741278364a599ec1:statistiques/x741278364a599ec1:droite-de-regression/a/linear-regression-review
 
 
@@ -165,16 +175,34 @@ Ce théorème et ses généralisations offrent une explication de l'omniprésenc
 
 En statistiques, un test, ou test d'hypothèse, est une procédure de décision entre deux hypothèses. Il s'agit d'une démarche consistant à rejeter ou à ne pas rejeter une hypothèse statistique, appelée hypothèse nulle, en fonction d'un échantillon de données.
 
+* Hypothèse nulle :
+
+En statistiques (H0) est une hypothèse postulant l'égalité entre des paramètres statistiques (généralement, la moyenne ou la variance) de deux échantillons dont elle fait l’hypothèse qu'ils sont pris sur des populations équivalentes. Elle est toujours testée contre une hypothèse alternative qui postule soit la différence des données (test bilatéral), soit une inégalité (plus petit que ou plus grand que) entre les données (test unilatéral). 
+
+https://fr.wikipedia.org/wiki/Test_statistique
+https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_nulle
 
 
 ### Chi-Square test. AS
 
-A
+A ETUDIER
+
+En statistique, le test du khi carré, aussi dit du khi-deux, est un test statistique où la statistique de test suit une loi du χ2 sous l'hypothèse nulle.
+
+Par exemple, il permet de tester l'adéquation d'une série de données à une famille de lois de probabilité ou de tester l'indépendance entre deux variables aléatoires.
+
+
+https://fr.wikipedia.org/wiki/Test_du_%CF%87%C2%B2
+
 
 
 ### ANOVA. AS
 
-A
+A ETUDIER
+
+En statistique, l'analyse de la variance (analysis of variance) est un ensemble de modèles statistiques utilisés pour vérifier si les moyennes des groupes proviennent d'une même population.
+
+https://fr.wikipedia.org/wiki/Analyse_de_la_variance
 
 
 
@@ -198,13 +226,92 @@ https://fr.wikipedia.org/wiki/Analyse_en_composantes_principales
 
 ### Anaconda, Jupyter-notebook.
 
-A
+Anaconda permet de faciliter l'installation des bibliothèques pour Python et R.
+
+Distribution libre et open source.
+
+Les versions de paquetages sont gérées par le système de gestion de paquets conda. 
+
+Elle comprend également une interface graphique, Anaconda Navigator, qui est une alternative graphique à l'interface de ligne de commande (CLI).
+
+La grande différence entre Conda et le gestionnaire de paquets pip consiste dans la gestion des dépendances des paquets.
+
+
+Le Navigateur Anaconda est une interface graphique (GUI) incluse dans la distribution Anaconda, et qui permet aux utilisateurs de lancer des applications,  de gérer les librairies conda ...
+
+
+Jupyter-notebook est un environnement de programmation interactif basé sur le Web permettant de créer des documents Jupyter Notebook. (langages JUlia PYThon et R !)
+Format des documents = JavaScript Object Notation (JSON).
+
+
+https://fr.wikipedia.org/wiki/Anaconda_(distribution_Python)
+
+https://fr.wikipedia.org/wiki/Jupyter
+
+https://www.youtube.com/watch?v=IT3SCr6xLqM
 
 
 
 ### Librairies Python : Pandas, NumPy, Seaborn, Matplotlib, Plotly, Scikit-Learn, StatsModels, nltk, Pycaret.
 
-A
+*Mainly opensource*
+
+* Pandas
+    When working with tabular data, such as data stored in spreadsheets or databases, pandas is the right tool for you. pandas will help you to explore, clean, and process your data. In pandas, a data table is called a DataFrame.
+
+
+* NumPy
+    Powerful N-dimensional arrays
+    Fast and versatile, the NumPy vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
+
+    Numerical computing tools
+    NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+
+
+* Seaborn
+    Data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+
+* Matplotlib
+    Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible. 
+
+
+* Plotly
+    *DASH ? / low-code ?*
+    Plotly's Python graphing library makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts. 
+
+
+* Scikit-Learn
+    - Simple and efficient tools for predictive data analysis
+    - Built on NumPy, SciPy, and matplotlib
+
+
+* StatsModels
+    Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
+
+
+* nltk
+    *Natural Language Toolkit*
+    nltk is a leading platform for building Python programs to work with human language data.
+
+
+* Pycaret
+    PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows.
+
+
+https://pandas.pydata.org/
+https://numpy.org/
+https://seaborn.pydata.org/
+https://matplotlib.org/
+
+https://plotly.com/
+https://plotly.com/python/
+
+https://scikit-learn.org/stable/index.html
+
+https://www.statsmodels.org/stable/index.html
+https://www.nltk.org/
+https://pycaret.org/
 
 
 
@@ -216,19 +323,53 @@ A
 
 ### Définition d'un ETL et exemples.
 
-A
+Extract, Transform and Load
+
+Simplifie les codes de traitement des données avec une interface visuelle intuitive.
+Source et destination : fichier, BDD, service WEB etc...
+
+Cette technologie repose sur :
+
+    des connecteurs servant à exporter ou importer les données dans les applications (ex. : connecteur Oracle ou SAP…) ;
+    des transformateurs qui manipulent les données (agrégations, filtres, conversions…) ;
+    et des mises en correspondance (mappages).
+
+Beaucoup de connecteurs disponibles ou développables en Java
+
+Par ex : Talend Open Studio
+
+https://www.youtube.com/watch?v=5jQthFuoXao&list=PL1aYsXmhJ1Wd1SNSV1fMci42yw6mdGxYI
+
+https://www.youtube.com/watch?v=UrUiKhJ2EOo
+
+https://fr.wikipedia.org/wiki/Extract-transform-load
 
 
 
 ### Une base de données relationnelle.
 
-A
+En informatique, une base de données relationnelle est une base de données où l'information est organisée dans des tableaux à deux dimensions appelés des relations ou tables.
+Selon ce modèle relationnel, une base de données consiste en une ou plusieurs relations.
+Les lignes de ces relations sont appelées des nuplets ou enregistrements.
+Les colonnes sont appelées des attributs. 
+
+Une composante N d'un n-uplet est une clé primaire lorsque par nature la valeur de cette composante est différente pour chaque n-uplet d'une relation, et que, pour une valeur donnée, il n'existe qu'un seul n-uplet dans toute la relation dont la composante a cette valeur (absence de redondance).
+
+Une composante N d'un n-uplet est une clé étrangère lorsque les valeurs de cette composante sont des références à une clé primaire. Il y a une situation d'intégrité référentielle lorsqu'à chaque valeur de la clé étrangère A correspond une valeur de la clé primaire référencée B. 
+
+https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es
+
+https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_relationnelle
 
 
 
 ### Power BI et Tableau.
 
-A
+Visualisation de données, tables et reportings.
+
+https://www.youtube.com/watch?v=TYWSfnWnmJs
+
+https://www.youtube.com/watch?v=uLj2EJwhPRQ
 
 
 
@@ -314,16 +455,22 @@ https://docs.aws.amazon.com/fr_fr/machine-learning/latest/dg/cross-validation.ht
 
 ## Bonus : Aspect métiers
 
-### Data Scientist
+Dans l'ordre d'utilisation de la donnée :
 
-A
 
+### Data Engineer
+
+Organise, structure et met à disposition la donnée.
 
 
 ### Data Analyst
 
-A
+Explore et analyse la donnée, tire les informations intéressantes et les affiche (DataViz et BI).
 
 
+### Data Scientist
 
-### Data Engineer
+Construit des modèles prédictifs.
+
+
+https://www.youtube.com/watch?v=1pARcazj-Mc
