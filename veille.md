@@ -1,5 +1,5 @@
 # Veille Science des données
-*15/11/2022
+*15/11/2022 - 17/11/2022*
 
 ## Notions mathématiques
 
@@ -317,7 +317,51 @@ https://pycaret.org/
 
 ### Librairies R : dplyr, ggplot2, tidyr, tidyverse, Shiny, plotly, Caret. ++
 
-A
+* dplyr
+    dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges:
+
+    mutate() adds new variables that are functions of existing variables
+    select() picks variables based on their names.
+    filter() picks cases based on their values.
+    summarise() reduces multiple values down to a single summary.
+    arrange() changes the ordering of the rows.
+
+    One of the core packages of the tidyverse in the R programming language, dplyr is primarily a set of functions designed to enable dataframe manipulation in an intuitive, user-friendly way. Data analysts typically use dplyr in order to transform existing datasets into a format better suited for some particular type of analysis, or data visualization.
+
+* ggplot
+    ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics (book). You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
+
+* tidyr
+    The goal of tidyr is to help you create tidy data. Tidy data is data where:
+
+    Every column is variable.
+    Every row is an observation.
+    Every cell is a single value.
+
+    Tidy data describes a standard way of storing data that is used wherever possible throughout the tidyverse. If you ensure that your data is tidy, you’ll spend less time fighting with the tools and more time working on your analysis. Learn more about tidy data in vignette("tidy-data").
+
+* tidyverse
+    The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
+
+* Shiny
+    Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions. 
+
+* plotly
+    *see Python Libraries section*
+
+* Caret
+    caret termed as Classification and Regression Training uses many functions for training and plotting classification & regression models. It is one of the most widely used packages among R developers and in various machine learning competitions.
+
+https://dplyr.tidyverse.org/
+https://ggplot2.tidyverse.org/
+https://tidyr.tidyverse.org/
+https://www.tidyverse.org/
+
+https://shiny.rstudio.com/
+
+https://www.geeksforgeeks.org/7-best-r-packages-for-machine-learning/
+
+
 
 
 
@@ -377,49 +421,79 @@ https://www.youtube.com/watch?v=uLj2EJwhPRQ
 
 ### La science des données.
 
-A
+La science des données est l'étude de l’extraction automatisée de connaissance à partir de grands ensembles de données.
+
+Plus précisément, la science des données est un domaine interdisciplinaire qui utilise des méthodes, des processus, des algorithmes et des systèmes scientifiques pour extraire des connaissances et des idées à partir de nombreuses données structurées ou non . Elle est souvent associée aux données massives et à l'analyse des données.
+
+Elle utilise des techniques et des théories tirées de nombreux domaines dans le contexte des mathématiques, des statistiques, de l'informatique, de la théorie et des technologies de l'information, parmi lesquelles : l’apprentissage automatique, la compression de données et le calcul à haute performance. 
+
+https://fr.wikipedia.org/wiki/Science_des_donn%C3%A9es
 
 
 
 ### L’apprentissage automatique.
 
-A
+L’apprentissage automatique ou machine learning réside dans le fait de rassembler une large quantité d’exemples afin de déterminer les schémas sous-jacents pour ensuite les utiliser afin d’effectuer des pronostics concernant de nouveaux exemples.
+
+Le première phase est la conception de système qu’on appelle aussi phase d’apprentissage ou d’entraînement est l’estimation d’un modèle à partir de l’analyse des données. Cela comprend une estimation d’une densité de probabilité ou la résolution d’une tâche pratique comme la traduction d’un discours.
+
+La seconde phase est une mise en production. Il est possible que des systèmes continuent leur apprentissage même en étant déjà en production. Après la détermination du modèle, on teste la seconde partie de données utile pour la réalisation de la tâche désirée.
+
+https://datascientest.com/apprentissage-automatique
 
 
 
 ### L’apprentissage profond.
 
-A
+Technique de machine learning reposant sur le modèle des réseaux neurones: des dizaines voire des centaines de couches de neurones sont empilées pour apporter une plus grande complexité à l’établissement des règles.
+
+https://datascientest.com/deep-learning-definition
 
 
 
 ### Deep vs Machine Learning (dans quel cas, on utilise l’un ou l’autre).
 
-A
+Les modèles de Deep learning ont tendance à bien fonctionner avec une grande quantité de données alors que les modèles d’apprentissage automatique plus classique cessent de s’améliorer après un point de saturation.
+
+(++image)
+
+https://datascientest.com/deep-learning-definition
 
 
 
 ### La différence entre l'apprentissage supervisé et l'apprentissage non supervisé.
 
-A
+En fonction des informations à disposition durant la phase d’apprentissage, l’apprentissage est qualifié distinctement. Si les données sont étiquetées, on parle d’apprentissage supervisé. Dans le cas où les données ne sont pas étiquetées, il s’agit alors d’apprentissage non supervisé.
 
+https://datascientest.com/apprentissage-automatique
+
+
+
+Classification, régression et clustering sont trois catégories d'algorithmes de ML selon le type de données et d'objectif.
+
+https://www.techjunkgigs.com/clustering-classification-and-regression-2/
 
 
 ### La classification et ses métriques d'évaluation.
 
-A
+Algorithme supervisé utilisant des données discrètes.
+
+https://www.techjunkgigs.com/clustering-classification-and-regression-2/
 
 
 
 ### La régression et ses métriques d'évaluation.
 
 A
+https://www.techjunkgigs.com/clustering-classification-and-regression-2/
 
 
 
 ### Le clustering et ses métriques de décision du k optimal et de la qualité des clusters.
 
-A
+
+
+https://www.techjunkgigs.com/clustering-classification-and-regression-2/
 
 
 
