@@ -122,7 +122,7 @@ https://www.youtube.com/watch?v=HmAH6Ct1rc4
 
 
 
-### Équation normale. ++
+### Équation normale.
 
 En statistique, équation matricielle de la forme :
 
@@ -149,17 +149,30 @@ Permet de comparer des données expérimentales, généralement entachées d’e
 
 L'ajustement linéaire par la méthode des moindres carrés consiste à déterminer la droite d'ajustement passant par le point " moyen ".
 
+Moindres carrés : somme distances carré erreur + dérivée = 0
+Passe par le point moyen et a = Cov (x,y) / Vx
+
+
+Lien entre moindres carrés et équations normales .. voir dernier lien internet.
+https://www.youtube.com/watch?v=tjUrkJQxRYU
+
 https://fr.wikipedia.org/wiki/%C3%89quation_normale
 https://fr.wikipedia.org/wiki/Matrice_transpos%C3%A9e
 
 https://www.youtube.com/watch?v=RQYnlgkgsUA
 https://fr.khanacademy.org/math/be-5eme-secondaire2h2/x741278364a599ec1:statistiques/x741278364a599ec1:droite-de-regression/a/linear-regression-review
 
+https://machinelearnia.com/regression-lineaire-equations-normales/
+https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s
+https://www.youtube.com/watch?v=tjUrkJQxRYU
 
 
-### La loi Normale. ++
+
+### La loi Normale.
 
 Utilisée pour modéliser des phénomènes naturels issus de plusieurs événements aléatoires. Loi de probabilité absolument continue qui dépend de deux paramètres : son espérance, un nombre réel noté μ, et son écart type, un nombre réel positif noté σ.
+
+https://fr.wikipedia.org/wiki/Loi_normale
 
 
 
@@ -169,9 +182,11 @@ Etablit la convergence en loi de la somme d'une suite de variables aléatoires v
 
 Ce théorème et ses généralisations offrent une explication de l'omniprésence de la loi normale dans la nature : de nombreux phénomènes sont dus à l'addition d'un grand nombre de petites perturbations aléatoires.
 
+https://spiegato.com/fr/quest-ce-que-le-theoreme-central-limite#:~:text=Le%20th%C3%A9or%C3%A8me%20central%20limite%20en%20statistique%20stipule%20que,la%20distribution%20sera%20proche%20de%20la%20distribution%20normale.
 
 
-### Un test d'hypothèse. AS
+
+### Un test d'hypothèse.
 
 En statistiques, un test, ou test d'hypothèse, est une procédure de décision entre deux hypothèses. Il s'agit d'une démarche consistant à rejeter ou à ne pas rejeter une hypothèse statistique, appelée hypothèse nulle, en fonction d'un échantillon de données.
 
@@ -183,9 +198,8 @@ https://fr.wikipedia.org/wiki/Test_statistique
 https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_nulle
 
 
-### Chi-Square test. AS
 
-A ETUDIER
+### Chi-Square test.
 
 En statistique, le test du khi carré, aussi dit du khi-deux, est un test statistique où la statistique de test suit une loi du χ2 sous l'hypothèse nulle.
 
@@ -197,8 +211,6 @@ https://fr.wikipedia.org/wiki/Test_du_%CF%87%C2%B2
 
 
 ### ANOVA. AS
-
-A ETUDIER
 
 En statistique, l'analyse de la variance (analysis of variance) est un ensemble de modèles statistiques utilisés pour vérifier si les moyennes des groupes proviennent d'une même population.
 
@@ -361,7 +373,7 @@ https://shiny.rstudio.com/
 
 https://www.geeksforgeeks.org/7-best-r-packages-for-machine-learning/
 
-
+https://www.r-project.org/
 
 
 
@@ -469,61 +481,97 @@ https://datascientest.com/apprentissage-automatique
 
 
 
+### *Catégorisation des algorithmes*
+
 Classification, régression et clustering sont trois catégories d'algorithmes de ML selon le type de données et d'objectif.
 
 https://www.techjunkgigs.com/clustering-classification-and-regression-2/
+https://blogs.query.ai/data-classification-clustering-and-regression
+
 
 
 ### La classification et ses métriques d'évaluation.
 
-Algorithme supervisé utilisant des données discrètes.
+Algorithme supervisé utilisant des données discrètes qui a pour objectif de déterminer à quelle catégorie appartient un élément.
 
-https://www.techjunkgigs.com/clustering-classification-and-regression-2/
+Métriques d'évaluation : Vrais et Faux Positifs et Négatifs (voir ci-dessous)
+https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226
 
 
 
 ### La régression et ses métriques d'évaluation.
 
-A
-https://www.techjunkgigs.com/clustering-classification-and-regression-2/
+Algorithme supervisé utilisant des données continues. Lorsqu'il n'est pas possible de regrouper les valeurs par catégorie. Permet de prévoir une valeur inconnue.
+
+Métriques d'évaluation : Basées sur l'erreur :
+MSE, RMSE / MAE, MAPE / MSLE
+
+https://kobia.fr/regression-metrics-quelle-metrique-choisir/
 
 
 
 ### Le clustering et ses métriques de décision du k optimal et de la qualité des clusters.
 
+Algorithme non-supervisé qui regroupe les données selon des caractéristiques communes non-déterminées initialement.
 
+Il existe plusieurs méthodes de mesure de la similarité (hiérarchique, centroïde, à densité...)
 
-https://www.techjunkgigs.com/clustering-classification-and-regression-2/
+Métriques d'évaluation : homogénéité (distance au centroïde), séparation (distance entre clusters), stabilité (répétitivité), indice de Rand (vérification si les clusters proposés ont du sens grace à un jeu de données connu)
+
+https://larevueia.fr/clustering-les-3-methodes-a-connaitre/
+https://openclassrooms.com/fr/courses/4379436-explorez-vos-donnees-avec-des-algorithmes-non-supervises/4379556-definissez-les-criteres-que-doit-satisfaire-votre-clustering
 
 
 
 ### Traitement automatique du langage.
 
-A
+Utilisation du langage par une IA.
+Application en moteur de recherche internet / traduction automatique / réponse automatique (projet Watson, IBM) (/ reconnaissance vocale)
+
+https://www.youtube.com/watch?v=waTZl_IbDdo&list=PL6Xpj9I5qXYHMDt3aBiI2KVff8c5Cwlfe
 
 
 
 ### La réduction de dimensions. ++
 
-A
+Permet de gagner du temps en réduisant en ramenant les données à une dimension inférieure, tout en en conservant les caractéristiques. Evite le phénomène de "fleau de la dimension". Deux méthodes ci-dessous :
+* Sélection de caractéristique (= supprime les caractéristiques inutiles)
+* Extraction de caractéristique (= construit les caractéristiques à partir des données brutes)
 
 https://fr.wikipedia.org/wiki/R%C3%A9duction_de_la_dimensionnalit%C3%A9
 
+https://fr.wikipedia.org/wiki/Fl%C3%A9au_de_la_dimension
+
+https://fr.wikipedia.org/wiki/S%C3%A9lection_de_caract%C3%A9ristique
+https://fr.wikipedia.org/wiki/Extraction_de_caract%C3%A9ristique
 
 
-### Le features engineering.
 
-A
+### Le features engineering. ++
+
+Ensemble de méthodes permettant de déterminer les caractéristiques des données. Ces caractéristiques sont utilisées pour le ML/DL afin d'alléger les calculs.
 
 https://datascientest.com/feature-engineering
 
 
 
-### La validation croisée, données d'entraînement, données de validation et données de test.
+### La validation croisée, données d'entraînement, données de validation et données de test. ++
 
-A
+Méthode d’estimation de fiabilité d’un modèle fondée sur une technique d’échantillonnage.
 
-https://docs.aws.amazon.com/fr_fr/machine-learning/latest/dg/cross-validation.html
+La validation croisée permet de tirer plusieurs ensembles de validation d'une même base de données et ainsi d'obtenir une estimation plus robuste.
+
+Données d'entrainement : Partition des données de l'échantillon utilisées pour l'entrainement du modèle et ajustement des paramètres.
+
+Données de validation : Partition des données de l'échantillon utilisées pour l'ajustement de modèle sur le jeu de données d'apprentissage tout en ajustant les hyperparamètres.
+
+Données de test : Partition des données de l'échantillon utilisées pour un ajustement final.
+
+Un hyperparamètre est un paramètre dont la valeur est utilisée pour contrôler le processus d'apprentissage. En revanche, les valeurs des autres paramètres (généralement la pondération de nœuds) sont obtenues par apprentissage. 
+
+https://fr.wikipedia.org/wiki/Validation_crois%C3%A9e
+https://fr.wikipedia.org/wiki/Jeux_d%27entrainement,_de_validation_et_de_test
+https://fr.wikipedia.org/wiki/Hyperparam%C3%A8tre
 
 
 
