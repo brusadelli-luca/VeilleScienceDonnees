@@ -239,6 +239,7 @@ Méthode de la famille de l'analyse des données. Consiste à transformer des va
 
 
 https://fr.wikipedia.org/wiki/Analyse_en_composantes_principales
+https://perso.math.univ-toulouse.fr/gadat/files/2012/12/01-m1-acp.pdf
 
 
 * Analyse factorielle des correspondances
