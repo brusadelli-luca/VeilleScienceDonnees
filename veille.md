@@ -182,6 +182,7 @@ Etablit la convergence en loi de la somme d'une suite de variables aléatoires v
 
 Ce théorème et ses généralisations offrent une explication de l'omniprésence de la loi normale dans la nature : de nombreux phénomènes sont dus à l'addition d'un grand nombre de petites perturbations aléatoires.
 
+https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_central_limite
 https://spiegato.com/fr/quest-ce-que-le-theoreme-central-limite#:~:text=Le%20th%C3%A9or%C3%A8me%20central%20limite%20en%20statistique%20stipule%20que,la%20distribution%20sera%20proche%20de%20la%20distribution%20normale.
 
 
@@ -220,17 +221,39 @@ https://fr.wikipedia.org/wiki/Analyse_de_la_variance
 
 ### Une valeur propre. ++
 
-A
+Un scalaire λ est une valeur propre de u s'il existe un vecteur x non nul tel que u(x) = λx.
+
+Notion qui permet de simplifier certains calculs matriciels.
 
 https://fr.wikipedia.org/wiki/Valeur_propre_(synth%C3%A8se)
+https://fr.wikipedia.org/wiki/Valeur_propre,_vecteur_propre_et_espace_propre
+https://www.dcode.fr/valeurs-propres-matrice#:~:text=Les%20valeurs%20propres%20sont%20des%20nombres%20caract%C3%A9risant%20une,diagonalisation%20de%20matrice%29%2C%20ce%20qui%20facilite%20les%20calculs.
 
 
 
 ### Analyse en composante principale, Analyse factorielle des correspondances et Analyse des correspondances multiples. ++
 
-A
+* Analyse en composante principale
+
+Méthode de la famille de l'analyse des données. Consiste à transformer des variables liées entre elles, corrélées, en nouvelles variables décorrélées les unes des autres. Ces nouvelles variables sont nommées « composantes principales ». Elle permet au statisticien de résumer l'information en réduisant le nombre de variables. 
+
 
 https://fr.wikipedia.org/wiki/Analyse_en_composantes_principales
+
+
+* Analyse factorielle des correspondances
+
+Méthode statistique d'analyse des données qui permet d'analyser et de hiérarchiser les informations contenues dans un tableau rectangulaire de données et qui est aujourd'hui particulièrement utilisée pour étudier le lien entre deux variables qualitatives.
+
+
+https://fr.wikipedia.org/wiki/Analyse_factorielle_des_correspondances
+
+
+* Analyse des correspondances multiples
+
+Méthode d'analyse factorielle adaptée aux données qualitatives (aussi appelées catégorielles). L'AMC généralise l'analyse factorielle des correspondances (AFC), qui étudie le lien entre deux variables qualitatives, en permettant d'étudier le lien entre plusieurs variables qualitatives.
+
+https://fr.wikipedia.org/wiki/Analyse_des_correspondances_multiples#:~:text=L%E2%80%99%20analyse%20des%20correspondances%20multiples%20%28ACM%29%20est%20une,factorielle%20adapt%C3%A9e%20aux%20donn%C3%A9es%20qualitatives%20%28aussi%20appel%C3%A9es%20cat%C3%A9gorielles%29.
 
 
 
